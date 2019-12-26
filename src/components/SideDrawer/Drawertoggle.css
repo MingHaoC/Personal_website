@@ -1,0 +1,29 @@
+.toggle_button{
+    display : flex;
+    height : 24px ;
+    width : 36px;
+    flex-direction: column;
+    justify-content: space-around;
+    background : transparent;
+    border : none;
+    cursor: pointer;
+    padding : 0;
+    box-sizing : border-box;
+}
+
+.toggle_button:focus{
+    outline : none;
+}
+
+.toggle_button_line{
+    width : 30px;
+    height : 2px;
+    background : white;
+
+}
+
+@media (min-width : 600px) {
+    .toggle_button{
+        display : none;
+    }
+}

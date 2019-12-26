@@ -1,0 +1,36 @@
+header{
+    align-items: center;
+    justify-content: center;
+    font-size: calc(12px + 3vmin);
+    color: #334;
+}
+
+body{
+    font-size : 16px;
+    color: #334;
+}
+
+.rectangle{
+    margin : auto;
+    border : solid 2px #F33446;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 24px;
+    background-color: white;
+}
+
+.File{
+    color : #F33446;
+}
+
+.rectangle:hover .File{
+    color : white;
+}
+
+.rectangle:hover{
+    cursor: pointer;
+    background-color: #F33446;
+    border-color: #F33446;
+}
+
+
