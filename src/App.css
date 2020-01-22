@@ -8,8 +8,13 @@
   width: 35vmin;
   pointer-events: none;
   border-radius:50%;
-  display: inline-block; /* change the default display type to inline-block */
-  overflow: hidden;      /* hide the overflow */
+  display: inline-block;
+  overflow: hidden;
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
 }
 
 
